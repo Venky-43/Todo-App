@@ -1,12 +1,63 @@
-# React + Vite
+# 📋 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React-based Todo Application** built as part of the **Software Developer Internship Assignment (AcademyMint)**.  
+It allows users to manage their tasks with **date filters** and **priority levels**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ➕ Add new tasks with **title, due date, and priority**  
+- ✅ Mark tasks as **completed / undo completion**  
+- ❌ Delete tasks  
+- 📅 **Date filters**: View all tasks, today’s tasks, upcoming tasks, or completed tasks  
+- 🔴🟡🟢 **Priority management** (High / Medium / Low) with color-coded badges  
+- 🎨 Responsive and clean UI (works on mobile too)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React (18+)**
+- **Context API** for state management
+- **Tailwind CSS** (for styling) *(or plain CSS if Tailwind not available)*
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+src/
+├── components/
+│ ├── TaskCard.jsx 
+│ ├── FilterBar.jsx 
+│ ├── PriorityBadge.jsx
+├── pages/
+│ └── Home.jsx
+├── context/
+│ └── TaskContext.jsx 
+├── utils/
+│ └── dateUtils.js 
+├── App.jsx
+├── index.js 
+
+
+---
+
+## ⚙️ Installation & Setup
+1. Clone the repository:
+   git clone https://github.com/Venky-43/Todo-App.git
+   cd todo-app
+   
+## Install dependencies
+npm install
+
+## Start the development server
+npm start
+
+## 🎮 Usage
+Enter a task title, due date, and priority.
+Click Add Task to save it.
+Use filter buttons (All, Today, Upcoming, Completed) to organize tasks.
+Mark tasks as Done/Undo or Delete them.
+
+## 📧 Submission
+This project is created as part of the AcademyMint Internship Evaluation.
+Author: Kothapalli Venkannababu
